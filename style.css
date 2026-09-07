@@ -1,0 +1,249 @@
+
+.navbar{
+display: flex;
+    width: 100%;
+    height: 68px;
+    background-color: #EBF1FF;
+    align-items: center;
+    position: sticky;
+    top: 2;
+}
+.logogroup{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.logo{
+    margin-left: 150px; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    overflow-y: hidden;
+    /* border: 1px solid red; */
+    background-color: rgb(255, 253, 253);
+    justify-content: center;
+    height: 60px;
+    width: 73px;
+    display: flex;
+    align-items: center;
+}
+
+.boxb{
+    width: 150px;
+    background-color: white;
+    height: 10px;
+    margin-left: -125px;
+}
+.boxr{
+    background-color: #EBF1FF;
+    width: 50px;
+    border-bottom-left-radius: 15px;
+    height: 20px;
+    margin-left: -25px;
+}
+.boxl{
+    background-color: #EBF1FF;
+    width: 55px;
+    border-bottom-right-radius: 15px;
+    height: 20px;
+    margin-left: -178px;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    margin-right: 90px;
+    gap: 750px;
+
+}
+.nav-items1{
+    /* width: 30px; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navimgtxt1, .navimgtxt2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.navimgtxt1 a, .navimgtxt2 a{
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+.nav-items2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navimgtxt4 a{
+    width: 100px;
+    height: 50px;
+    background-image: url("./assets/navsellimg.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+.navimgtxt3 a{
+    font-size: 15px;
+    text-decoration: underline;
+    color: black;
+    font-weight: 600;
+}
+.navimgtxt3 a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.custom-country {
+    padding:15px 0 15px 40px;
+    color: black;
+    width: 400px;
+    border-radius: 10px ;
+    background-image: url(assets/location.svg);
+    background-position:left;
+    background-size: 25px;
+    border: 1px solid black;
+
+}
+
+.custom-search{
+    padding:15px 0 15px 10px;
+    border-radius: 10px;
+    width: 80%;
+    color: black;
+    border: none;
+    display: flex;
+}
+.search-form{
+    display: flex;
+    gap: 0;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.srbtncolor{
+    background-color: #002F34;
+    border-color: #002F34;
+    color: white;
+    background-image: url(assets/search.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 100px;
+    padding-left: 15px;
+    background-size: 20px;
+}
+.srbtncolor:hover{
+    background-color: #002F34;
+    border: none;
+}
+.srbtncolor:active{
+    background-color: #002F34;
+    border: none;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+}
+.custom-dropdown:hover
+{
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+.custom-dropdown{
+    font-weight: 600;
+    border: none;
+}
+ a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
+.custom-menu{
+    width: 1200px;
+    height: 400px;
+    overflow-y: scroll;
+    padding-left: 40px;
+}
+
+
+table{
+    border: none;
+    display: flex;
+    justify-content: center; 
+}
+th{
+    padding: 5px 50px;
+    text-align: left;
+    color: black;
+    font-weight: 600;
+}
+td{
+    padding: 5px 50px;
+    text-align: left;
+    font-weight: 400;
+    color: rgb(23, 23, 23);
+    font-size: small;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.images h3{
+    font-size: 15px;
+    text-align: center;
+}
+.cardtxt{
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+}
+.boxuf{
+    width: 100%;
+    background-color: #E8ECEC;
+    height: 200px;
+}
+.uftxt{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.uftxt1{
+    font-size: 25px;
+    text-align: left;
+    font-weight: 700;
+}
+.uftxt2{
+    font-size: 25px;
+    text-align: left;
+    color: #3A77FF;
+    font-weight: 700;
+}
+.ufimg{
+    display: flex;
+    /* overflow: hidden; */
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid red; */
+    justify-content: center;
+}
+.ufbtn{
+    display: flex;
+    width: 30%;
+    gap: 10px;
+    margin-top: 80px;
+}
