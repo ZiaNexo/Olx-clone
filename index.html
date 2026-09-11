@@ -4,44 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <div class="navbar" id="nav">
-            <div class="logogroup">
-            <div class="logo">
-                <img src="assets/logo.jpeg" alt="" width="50px" height="50px">
-            </div>
-                <div class="boxb"></div>
-                <div class="boxr"></div>
-                <div class="boxl"></div>
-            </div>
-            <div class="nav-items">
-                
-            <div class="nav-items1">
-                <div class="navimgtxt1">
-                    <img src="assets/navcar.png" alt="" width="70px">
-                    <a href="#">Motors</a>
-                </div>
-                 <div class="navimgtxt2">
-                    <img src="assets/navproperty.png" alt="" width="70px">
-                    <a href="#">Property</a>
-                </div>
-            </div>
-            <div class="nav-items2">
-                <div class="navimgtxt3">
-                    <a href="#">Login</a>
-                </div>
-                 <div class="navimgtxt4">
-                    <a href="#">Sell</a>
-                </div>
-            </div>
-            </div>
+  <div class="top">
+   <div class="d-flex justify-content-around navbar">
+    <div class="d-flex align-items-center gap-3">
+      <div class="d-flex justify-content-center">
+        <div class="boxll"></div>
+        <div class="logo1">
+          <img src="assets/logo.jpeg" alt="" width="50px">
         </div>
-    </nav>
-  
-
+        <div class="boxbb"></div>
+        <div class="boxrr"></div>
+      </div>
+      <div class="d-flex align-items-center gap-2 navitem1">
+        <img src="assets/navcar.png" alt="" width="50px">
+        <a href="#" class="navlink">Motors</a>
+      </div>
+      <div class="d-flex align-items-center gap-2 navitem1">
+        <img src="assets/navproperty.png" alt="" width="50px">
+        <a href="#" class="navlink">Property</a>
+      </div>
+    </div>
+ <div class="d-flex align-items-center justify-content-center gap-2">
+      <div>
+        <a href="#" class="navlink2">Login</a>
+      </div>
+      <div class="d-flex align-items-center justify-content-center gap-1 sellbtn">
+        <img src="assets/plus.svg" alt="" width="13px">
+        <a href="#" class="navlink3">Sell</a>
+      </div>
+    </div>
+   </div>
 <br>
 <section>
     <div class="container">
@@ -60,7 +56,9 @@
     <div class="col-sm-12 col-md-6 col-lg-8">
         <form class="d-flex input-group search-form" role="search">
      <input class="form-control me-2 custom-search" type="search" placeholder="Find Cars, Mobile Phones and more" aria-label="Search">
-        <button class="btn btn-outline-success srbtncolor" type="submit">Search</button>
+        <button class="btn btn-outline-success d-flex align-items-center gap-2 srbtncolor" type="submit">
+            <i class="bi bi-search text-white"></i>
+          Search</button>
       </form>
     </div>
   </div>
@@ -68,6 +66,8 @@
 </div>
 </section>
 <hr>
+</div>
+
 
 <section>
     <div class="container text-center">
@@ -79,134 +79,167 @@
     All Categories
   </a>
   <ul class="dropdown-menu custom-menu">
-      <table>
-            <tr>
-                <th>Shop and learn</th>
-                <th>Account</th>
-                <th>Apple store</th>
-                <th>For business</th>
-                <th>Apple values</th>
-            </tr>
-            <tr>
-                <td>Store</td>
-                <td>Manage your account</td>
-                <td>Find a store</td>
-                <td>Apple and business</td>
-                <td>Accessibility</td>
-            </tr>
-              <tr>
-                <td>Mac</td>
-                <td>Apple store account</td>
-                <td>Genius bar</td>
-                <td>Shop for business</td>
-                <td>Education</td>
-            </tr>
-              <tr>
-                <td>Ipasd</td>
-                <td>icloude.com</td>
-                <td>Today at apple</td>
-                <td></td>
-                <td>Environment</td>
-            </tr>
-              <tr>
-                <td>Iphone</td>
-                <td></td>
-                <td>Group reservation</td>
-                <th>For Education</th>
-                <td>Inclusion and diversity</td>
-            </tr>
-              <tr>
-                <td>Watch</td>
-                <th>Entertainment</th>
-                <td>Apple camp</td>
-                <td>Apple education</td>
-                <td>Privacy</td>
-            </tr>
-              <tr>
-                <td>Vision</td>
-                <td>Apple one</td>
-                <td>Apple store app</td>
-                <td>Shop for k-12</td>
-                <td>Racial equity and justice</td>
-            </tr>
-              <tr>
-                <td>Airpods</td>
-                <td>Apple TV</td>
-                <td>Certified Refurbished</td>
-                <td>Shop for collage</td>
-                <td>Supply chain innovation</td>
-            </tr>
-              <tr>
-                <td>TV Home</td>
-                <td>Apple Music</td>
-                <td>Apple upgrade</td>
-                <th>For health care</th>
-                <td></td>
-            </tr>
-                <tr>
-                <td>Airtags</td>
-                <td>Apple arcade</td>
-                <td>Apple trade in</td>
-                <td>Apple health and care</td>
-                <th>About people</th>
-            </tr>
-                <tr>
-                <td>Accessories</td>
-                <td>Apple Fitness+</td>
-                <td>Financing</td>
-                <td></td>
-                <td>Newsroom</td>
-            </tr>
-                <tr>
-                <td>Gift cards</td>
-                <td>Apple News+</td>
-                <td>Carrer deals at apple</td>
-                <th>For Government</th>
-                <td>Apple leadership</td>
-            </tr>
-                <tr>
-                <td></td>
-                <td>Apple Podcasts</td>
-                <td>Order status</td>
-                <td>Apple and Government</td>
-                <td>Carrer opportunities</td>
-            </tr>
-                <tr>
-                <th>Apple Wallets</th>
-                <td>Apple books</td>
-                <td>Shopping help</td>
-                <td>Shop for veterans and military</td>
-                <td>Investors</td>
-            </tr>
-                <tr>
-                <td>Wallets</td>
-                <td>App store</td>
-                <td></td>
-                <td>Shop for state and local employees</td>
-                <td>Ethics and compliance</td>
-            </tr>
-                <tr>
-                <td>Apple ard</td>
-                <td></td>
-                <td></td>
-                <td>Shop for federal employees</td>
-                <td>Events</td>
-            </tr>
-                <tr>
-                <td>Apple pay</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>Contact Apple</td>
-            </tr>
-                <tr>
-                <td>Apple cash</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </table>>
+      <div class="allcateg-dropdown ">
+    <table>
+        <tr>
+            <td>
+                <div class="category d-flex flex-column">
+                    <h3>Mobiles</h3>
+                    <a href="#">Mobile Phones</a>
+                    <a href="#">Accessories</a>
+                    <a href="#">Tablets</a>
+                    <a href="#">Smart Watches</a>
+                    <a href="#">Landline Phones</a>
+                    <a href="#">Other Wearables</a>
+                    <a href="#">Mobile Numbers</a>
+                </div>
+
+                <div class="category d-flex flex-column">
+                    <h3>Vehicles</h3>
+                    <a href="#">Cars</a>
+                    <a href="#">Cars Accessories</a>
+                    <a href="#">Spare Parts</a>
+                    <a href="#">Car Care</a>
+                    <a href="#">Rickshaw & Chingchi</a>
+                    <a href="#">Buses Vans & Trucks</a>
+                    <a href="#">Tractors & Trailers</a>
+                    <a href="#">Oil & Lubricants</a>
+                    <a href="#">Cars on Installments</a>
+                    <a href="#">Other Vehicles</a>
+                    <a href="#">Boats</a>
+                </div>
+
+                <div class="category d-flex flex-column">
+                    <h3>Property for Sale</h3>
+                    <a href="#">Land & Plots</a>
+                    <a href="#">Houses</a>
+                    <a href="#">Apartments & Flats</a>
+                    <a href="#">Shops Offices Commercial Space</a>
+                    <a href="#">Portions & Floors</a>
+                </div>
+
+            </td>
+            <td>
+
+                <div class="category d-flex flex-column">
+                    <h3>Property for Rent</h3>
+                    <a href="#">Apartments & Flats</a>
+                    <a href="#">Houses</a>
+                    <a href="#">Shops Offices Commercial Space</a>
+                    <a href="#">Portions & Floors</a>
+                    <a href="#">Rooms</a>
+                    <a href="#">Vacation Rentals Guest Houses</a>
+                    <a href="#">Roommates & Paying Guests</a>
+                    <a href="#">Land & Plots</a>
+                </div>
+
+                <div class="category d-flex flex-column">
+                    <h3>Electronics & Home Appliances</h3>
+                    <a href="#">Laptops</a>
+                    <a href="#">Computers & Accessories</a>
+                    <a href="#">AC & Coolers</a>
+                    <a href="#">Refrigerators & Freezers</a>
+                    <a href="#">Televisions & Accessories</a>
+                    <a href="#">Games & Entertainment</a>
+                    <a href="#">Cameras & Accessories</a>
+                    <a href="#">Video-Audios</a>
+                    <a href="#">Kitchen Appliances</a>
+                    <a href="#">Generators UPS & Power Solutions</a>
+                    <a href="#">Solar Appliances</a>
+                    <a href="#">Other Home Appliances</a>
+                    <a href="#">Washing Machines & Dryers</a>
+                    <a href="#">Fans</a>
+                    <a href="#">Tools & DIY Equipment</a>
+                    <a href="#">Microwaves & Ovens</a>
+                    <a href="#">Heaters & Geysers</a>
+                    <a href="#">Sewing Machines</a>
+                    <a href="#">Water Dispensers</a>
+                    <a href="#">Irons & Steamers</a>
+                    <a href="#">Air Purifiers & Humidifiers</a>
+                    <a href="#">Vacuum Cleaners</a>
+                </div>
+
+            </td>
+            <td>
+
+                <div class="category d-flex flex-column">
+                    <h3>Bikes</h3>
+                    <a href="#">Motorcycles</a>
+                    <a href="#">Bicycles</a>
+                    <a href="#">Scooters</a>
+                    <a href="#">Spare Parts</a>
+                    <a href="#">Bikes Accessories</a>
+                    <a href="#">ATV & Quads</a>
+                    <a href="#">Bike Care</a>
+                </div>
+
+                <div class="category d-flex flex-column">
+                    <h3>Business Industrial & Agriculture</h3>
+                    <a href="#">Other Business & Industry</a>
+                    <a href="#">Food & Restaurants</a>
+                    <a href="#">Trade & Industrial Machinery</a>
+                    <a href="#">Medical & Pharma</a>
+                    <a href="#">Business for Sale</a>
+                    <a href="#">Construction & Heavy Machinery</a>
+                    <a href="#">Agriculture</a>
+                </div>
+
+                <div class="category d-flex flex-column">
+                    <h3>Services</h3>
+                    <a href="#">Tuitions & Academies</a>
+                    <a href="#">Other Services</a>
+                    <a href="#">Home & Office Repair</a>
+                    <a href="#">Car Rental</a>
+                    <a href="#">Domestic Help</a>
+                    <a href="#">Web Development</a>
+                    <a href="#">Drivers & Taxi</a>
+                    <a href="#">Consultancy Services</a>
+                    <a href="#">Electronics & Computer Repair</a>
+                    <a href="#">Construction Services</a>
+                    <a href="#">Event Services</a>
+                    <a href="#">Travel & Visa</a>
+                    <a href="#">Video & Photography</a>
+                    <a href="#">Health & Beauty</a>
+                    <a href="#">Movers & Packers</a>
+                    <a href="#">Architecture & Interior Design</a>
+                </div>
+
+            </td>
+            <td>
+
+                <div class="category d-flex flex-column">
+                    <h3>Jobs</h3>
+                    <a href="#">Other Jobs</a>
+                    <a href="#">Online</a>
+                    <a href="#">Part Time</a>
+                    <a href="#">Sales</a>
+                    <a href="#">Education</a>
+                    <a href="#">Restaurants & Hospitality</a>
+                    <a href="#">Driver</a>
+                    <a href="#">Marketing</a>
+                    <a href="#">Customer Service</a>
+                    <a href="#">Medical</a>
+                    <a href="#">Call Center</a>
+                    <a href="#">Accounting & Finance</a>
+                    <a href="#">Graphic Design</a>
+                    <a href="#">IT & Networking</a>
+                    <a href="#">Delivery Riders</a>
+                    <a href="#">Hotels & Tourism</a>
+                    <a href="#">Manufacturing</a>
+                    <a href="#">Security</a>
+                    <a href="#">Engineering</a>
+                    <a href="#">Content Writing</a>
+                    <a href="#">Real Estate</a>
+                    <a href="#">Human Resources</a>
+                    <a href="#">Internships</a>
+                </div>
+                      </td>
+
+        </tr>
+
+    </table>
+
+</div>
   </ul>
 </div>
             <li><a href="#">Mobile Phones</a></li>
@@ -302,41 +335,11 @@
    
 <div class="container">
     <div class="row">
+      <div class="card-group-heading">
          <h1>Mobile Phones</h1>
+         <p><a href="#">View More</a></p>
+         </div>
         <div class="col-sm-3">
-            <div class="card" style="width: 18rem;">
-  <img src="assets/mobiles.jfif" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Rs 14,700</h5>
-    <p class="card-text">iPhone 14 Pro (256GB) PTA Approved Available On Easy Installment Plan.</p>
-    <p class="card-text cardtxt">Nazimabad,Karachi. <ago class="z"></ago></p>
-    <p class="card-text cardtxt">3 weeks ago</p>
-  </div>
-</div>
-        </div>
-         <div class="col-sm-3">
-            <div class="card" style="width: 18rem;">
-  <img src="assets/mobiles.jfif" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Rs 35,700</h5>
-    <p class="card-text">iPhone 14 Pro (256GB) PTA Approved Available On Easy Installment Plan.</p>
-    <p class="card-text cardtxt">Nazimabad,Karachi. <ago class="z"></ago></p>
-    <p class="card-text cardtxt">3 weeks ago</p>
-  </div>
-</div>
-        </div>
-         <div class="col-sm-3">
-            <div class="card" style="width: 18rem;">
-  <img src="assets/mobiles.jfif" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Rs 26,700</h5>
-    <p class="card-text">iPhone 14 Pro (256GB) PTA Approved Available On Easy Installment Plan.</p>
-    <p class="card-text cardtxt">Nazimabad,Karachi. <ago class="z"></ago></p>
-    <p class="card-text cardtxt">3 weeks ago</p>
-  </div>
-</div>
-        </div>
-         <div class="col-sm-3">
             <div class="card" style="width: 18rem;">
   <img src="assets/mobiles.jfif" class="card-img-top" alt="...">
   <div class="card-body">
@@ -347,13 +350,49 @@
   </div>
 </div>
         </div>
+         <div class="col-sm-3">
+            <div class="card" style="width: 18rem;">
+  <img src="assets/mobiles.jfif" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Rs 25,890</h5>
+    <p class="card-text">iPhone 14 Pro (256GB) PTA Approved Available On Easy Installment Plan.</p>
+    <p class="card-text cardtxt">Nazimabad,Karachi. <ago class="z"></ago></p>
+    <p class="card-text cardtxt">3 weeks ago</p>
+  </div>
+</div>
+        </div>
+         <div class="col-sm-3">
+            <div class="card" style="width: 18rem;">
+  <img src="assets/mobiles.jfif" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Rs 26000</h5>
+    <p class="card-text">iPhone 14 Pro (256GB) PTA Approved Available On Easy Installment Plan.</p>
+    <p class="card-text cardtxt">Nazimabad,Karachi. <ago class="z"></ago></p>
+    <p class="card-text cardtxt">3 weeks ago</p>
+  </div>
+</div>
+        </div>
+         <div class="col-sm-3">
+            <div class="card" style="width: 18rem;">
+  <img src="assets/mobiles.jfif" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Rs 18900</h5>
+    <p class="card-text">iPhone 14 Pro (256GB) PTA Approved Available On Easy Installment Plan.</p>
+    <p class="card-text cardtxt">Nazimabad,Karachi. <ago class="z"></ago></p>
+    <p class="card-text cardtxt">3 weeks ago</p>
+  </div>
+</div>
+        </div>
         
     </div>
 </div>
 <br>
 <div class="container">
     <div class="row">
+        <div class="card-group-heading">
          <h1>Cars</h1>
+         <p><a href="#">View More</a></p>
+         </div>
         <div class="col-sm-3">
             <div class="card" style="width: 18rem;">
   <img src="assets/corolla.jfif" class="card-img-top" alt="...">
@@ -369,7 +408,7 @@
             <div class="card" style="width: 18rem;">
   <img src="assets/corolla.jfif" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Rs 22.50 lacs</h5>
+    <h5 class="card-title">Rs 25 lacs</h5>
     <p class="card-text">Toyota Corolla XLI 2009-10</p>
     <p class="card-text cardtxt">Nazimabad,Karachi. <ago class="z"></ago></p>
     <p class="card-text cardtxt">3 weeks ago</p>
@@ -380,7 +419,7 @@
             <div class="card" style="width: 18rem;">
   <img src="assets/corolla.jfif" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Rs 22.50 lacs</h5>
+    <h5 class="card-title">Rs 24.99 lacs</h5>
     <p class="card-text">Toyota Corolla XLI 2009-10</p>
     <p class="card-text cardtxt">Nazimabad,Karachi. <ago class="z"></ago></p>
     <p class="card-text cardtxt">3 weeks ago</p>
@@ -391,7 +430,7 @@
             <div class="card" style="width: 18rem;">
   <img src="assets/corolla.jfif" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Rs 22.50 lacs</h5>
+    <h5 class="card-title">Rs 22 lacs</h5>
     <p class="card-text">Toyota Corolla XLI 2009-10</p>
     <p class="card-text cardtxt">Nazimabad,Karachi. <ago class="z"></ago></p>
     <p class="card-text cardtxt">3 weeks ago</p>
@@ -404,7 +443,10 @@
 <br>
 <div class="container">
     <div class="row">
+         <div class="card-group-heading">
          <h1>Bikes</h1>
+         <p><a href="#">View More</a></p>
+         </div>
         <div class="col-sm-3">
             <div class="card" style="width: 18rem;">
   <img src="assets/150.jfif" class="card-img-top" alt="...">
@@ -420,7 +462,7 @@
             <div class="card" style="width: 18rem;">
   <img src="assets/150.jfif" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Rs 2.5 lacs</h5>
+    <h5 class="card-title">Rs 1.5 lacs</h5>
     <p class="card-text">Suzuki GR 150 2018</p>
     <p class="card-text cardtxt">Nazimabad,Karachi. <ago class="z"></ago></p>
     <p class="card-text cardtxt">3 weeks ago</p>
@@ -431,7 +473,7 @@
             <div class="card" style="width: 18rem;">
   <img src="assets/150.jfif" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Rs 2.5 lacs</h5>
+    <h5 class="card-title">Rs 3.5 lacs</h5>
     <p class="card-text">Suzuki GR 150 2018</p>
     <p class="card-text cardtxt">Nazimabad,Karachi. <ago class="z"></ago></p>
     <p class="card-text cardtxt">3 weeks ago</p>
@@ -442,7 +484,7 @@
             <div class="card" style="width: 18rem;">
   <img src="assets/150.jfif" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Rs 2.5 lacs</h5>
+    <h5 class="card-title">Rs 2 lacs</h5>
     <p class="card-text">Suzuki GR 150 2018</p>
     <p class="card-text cardtxt">Nazimabad,Karachi. <ago class="z"></ago></p>
     <p class="card-text cardtxt">3 weeks ago</p>
@@ -455,7 +497,10 @@
 <br>
 <div class="container">
     <div class="row">
+         <div class="card-group-heading">
          <h1>Houses</h1>
+         <p><a href="#">View More</a></p>
+         </div>
         <div class="col-sm-3">
             <div class="card" style="width: 18rem;">
   <img src="assets/houses.jfif" class="card-img-top" alt="...">
@@ -471,7 +516,7 @@
             <div class="card" style="width: 18rem;">
   <img src="assets/houses.jfif" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Rs 8 crore</h5>
+    <h5 class="card-title">Rs 4 crore</h5>
     <p class="card-text">8 Marala Luxury House For sale in Fasail Town.</p>
     <p class="card-text cardtxt">Nazimabad,Karachi. <ago class="z"></ago></p>
     <p class="card-text cardtxt">3 weeks ago</p>
@@ -482,7 +527,7 @@
             <div class="card" style="width: 18rem;">
   <img src="assets/houses.jfif" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Rs 8 crore</h5>
+    <h5 class="card-title">Rs 2.9 crore</h5>
     <p class="card-text">8 Marala Luxury House For sale in Fasail Town.</p>
     <p class="card-text cardtxt">Nazimabad,Karachi. <ago class="z"></ago></p>
     <p class="card-text cardtxt">3 weeks ago</p>
@@ -493,7 +538,7 @@
             <div class="card" style="width: 18rem;">
   <img src="assets/houses.jfif" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Rs 8 crore</h5>
+    <h5 class="card-title">Rs 6 crore</h5>
     <p class="card-text">8 Marala Luxury House For sale in Fasail Town.</p>
     <p class="card-text cardtxt">Nazimabad,Karachi. <ago class="z"></ago></p>
     <p class="card-text cardtxt">3 weeks ago</p>
@@ -504,14 +549,17 @@
     </div>
 </div>
 <br>
-<div class="container">
+<div class="container"> 
     <div class="row">
-         <h1>Audio and Video</h1>
+        <div class="card-group-heading">
+         <h1>Audio And Video</h1>
+         <p><a href="#">View More</a></p>
+         </div>
         <div class="col-sm-3">
             <div class="card" style="width: 18rem;">
   <img src="assets/speaker.jfif" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Rs 2000</h5>
+    <h5 class="card-title">Rs 2500</h5>
     <p class="card-text">Wireless bluetooth speakers.</p>
     <p class="card-text cardtxt">North Nazimabad,Karachi. <ago class="z"></ago></p>
     <p class="card-text cardtxt">1 weeks ago</p>
@@ -533,7 +581,7 @@
             <div class="card" style="width: 18rem;">
   <img src="assets/speaker.jfif" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Rs 2000</h5>
+    <h5 class="card-title">Rs 2100</h5>
     <p class="card-text">Wireless bluetooth speakers.</p>
     <p class="card-text cardtxt">North Nazimabad,Karachi. <ago class="z"></ago></p>
     <p class="card-text cardtxt">1 weeks ago</p>
@@ -544,7 +592,7 @@
             <div class="card" style="width: 18rem;">
   <img src="assets/speaker.jfif" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Rs 2000</h5>
+    <h5 class="card-title">Rs 2800</h5>
     <p class="card-text">Wireless bluetooth speakers.</p>
     <p class="card-text cardtxt">North Nazimabad,Karachi. <ago class="z"></ago></p>
     <p class="card-text cardtxt">1 weeks ago</p>
@@ -557,7 +605,10 @@
 <br>
 <div class="container">
     <div class="row">
+         <div class="card-group-heading">
          <h1>Tablets</h1>
+         <p><a href="#">View More</a></p>
+         </div>
         <div class="col-sm-3">
             <div class="card" style="width: 18rem;">
   <img src="assets/tablets.jfif" class="card-img-top" alt="...">
@@ -608,7 +659,10 @@
 <br>
 <div class="container">
     <div class="row">
-         <h1>Lands & Plots</h1>
+         <div class="card-group-heading">
+         <h1>Land & Plots</h1>
+         <p><a href="#">View More</a></p>
+         </div>
         <div class="col-sm-3">
             <div class="card" style="width: 18rem;">
   <img src="assets/lands.jfif" class="card-img-top" alt="...">
@@ -659,7 +713,10 @@
 <br>
 <div class="container">
     <div class="row">
+        <div class="card-group-heading">
          <h1>Jobs</h1>
+         <p><a href="#">View More</a></p>
+         </div>
         <div class="col-sm-3">
             <div class="card" style="width: 18rem;">
   <img src="assets/post job.jfif" class="card-img-top" alt="...">
@@ -730,9 +787,131 @@
         <img src="assets/playstore btn.svg" alt="">
         <img src="assets/huwawe btn.svg" alt="">
       </div>
-    </div>
+    </div><hr>
   </div>
 </div>
+<br>
+<div class="d-flex justify-content-evenly">
+  <div class="d-flex flex-column align-items-start">
+    <div>
+       <p class="fthead">Popular Categories</p>
+    </div>
+    <div>
+      <ul class="d-flex flex-column align-items-start list-unstyled">
+        <li>
+        </li>
+        <a href="#" class="ftlinks">Cars</a>
+        <li>
+          <a href="#" class="ftlinks"> Flats for Rent</a>
+        </li>
+        <li>
+          <a href="#" class="ftlinks">Mobile Phones</a>
+        </li>
+        <li>
+          <a href="#" class="ftlinks">
+            Jobs
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="d-flex flex-column align-items-start">
+    <div>
+       <p class="fthead">Trending Searches</p>
+    </div>
+    <div>
+      <ul class="d-flex flex-column align-items-start list-unstyled">
+        <li>
+          <a href="#" class="ftlinks">Bikes</a>
+        </li>
+        <li>
+          <a href="#" class="ftlinks"> Watches</a>
+        </li>
+        <li>
+          <a href="#" class="ftlinks">Books</a>
+        </li>
+        <li>
+          <a href="#" class="ftlinks">Dogs</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="d-flex flex-column align-items-start">
+    <div>
+       <p class="fthead">About us</p>
+    </div>
+    <div>
+      <ul class="d-flex flex-column align-items-start list-unstyled">
+        <li>
+          <a href="#" class="ftlinks">Olx Blog</a>
+        </li>
+        <li>
+          <a href="#" class="ftlinks"> Contact us</a>
+        </li>
+        <li>
+          <a href="#" class="ftlinks">Olx for business</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="d-flex flex-column align-items-start">
+    <div>
+       <p class="fthead">OLX</p>
+    </div>
+    <div>
+      <ul class="d-flex flex-column align-items-start list-unstyled">
+        <li>
+          <a href="#" class="ftlinks">Help</a>
+        </li>
+        <li>
+          <a href="#" class="ftlinks"> Sitemap</a>
+        </li>
+        <li>
+          <a href="#" class="ftlinks">Terms of use</a>
+        </li>
+        <li>
+          <a href="#" class="ftlinks">Privacy Policy</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="">
+    <div>
+       <p class="fthead">Follow Us</p>
+    </div>
+    <div class="d-flex gap-2">
+      <div>
+        <img src="assets/xicon.svg" alt="">
+      </div>
+      <div>
+        <img src="assets/facebookicon.svg" alt="">
+      </div>
+      <div>
+        <img src="assets/youtubeicon.svg" alt="">
+      </div>
+      <div>
+        <img src="assets/instagramicon.svg" alt="">
+      </div>
+    </div>
+    <br>
+     <div class="d-flex justify-content-end">
+    <button class="btn btn-outline-success d-flex gap-2 align-items-center topbtn" type="submit">
+      <img src="assets/arrow.svg" alt="" width="15px">
+      Back to top</button>
+</div>
+  </div>
+ </div>
+
+</div>
+
+<div class="footer">
+<div class="d-flex gap-1 align-items-center ftalign">
+  <div><p class="fttxt">Classified In Pakistan.</p></div>
+  <div><p>© 2006 – 2026 OLX</p></div>
+</div>
+</div>
+
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
