@@ -155,7 +155,6 @@ display: flex;
 .custom-country {
     padding:15px 0 15px 40px;
     color: black;
-    width: 400px;
     border-radius: 10px ;
     background-image: url(assets/location.svg);
     background-position:left;
@@ -172,7 +171,6 @@ display: flex;
 .custom-search{
     padding:15px 0 15px 10px;
     border-radius: 10px;
-    width: 80%;
     color: black;
     border: none;
     display: flex;
@@ -201,7 +199,13 @@ display: flex;
     background-color: #002F34;
     border: none;
 }
-
+.items-md{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    width: 75%;
+    
+}
 ul{
     display: flex;
     list-style: none;
@@ -258,6 +262,11 @@ a:hover{
 
 .category a:hover {
     color: #3A77FF;
+}
+.img1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .images{
     display: flex;
@@ -333,11 +342,11 @@ a:hover{
     font-weight: 700;
 }
 .ftalign{
-    padding-left: 1100px;
     color: white;
     height: 50px;
     background-color: #002F34;
     width: 100%;
+    padding-right: 10px;
 }
 .topbtn{
     border-radius: 20px;
@@ -347,6 +356,9 @@ a:hover{
     top: 50px;
     color: #002F34;
     font-weight: 600;
+}
+.topbtn a{
+    color: #002F34;
 }
 .topbtn:hover{
     border: 2px solid #002F34;
